@@ -19,7 +19,10 @@ class IDrawioItem(model.Schema):
     """
 
     embed_code = schema.Text(
-        title=_(u'Embed code'),
+        title=_(u'Iframe embed code'),
+        description=_(
+            u'Insert the code generated from draw.io\'s'
+            u' export embed feature.'),
         required=True
     )
 

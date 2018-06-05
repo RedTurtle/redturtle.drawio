@@ -21,7 +21,7 @@
 
   <genericsetup:registerProfile
       name="default"
-      title="redturtle.drawio"
+      title="RedTurtle draw.io"
       directory="profiles/default"
       description="Installs the redturtle.drawio add-on."
       provides="Products.GenericSetup.interfaces.EXTENSION"
@@ -30,7 +30,7 @@
 
   <genericsetup:registerProfile
       name="uninstall"
-      title="redturtle.drawio (uninstall)"
+      title="RedTurtle draw.io (uninstall)"
       directory="profiles/uninstall"
       description="Uninstalls the redturtle.drawio add-on."
       provides="Products.GenericSetup.interfaces.EXTENSION"
