@@ -12,34 +12,34 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0\n"
-"Language-Code: en\n"
-"Language-Name: English\n"
+"Language-Code: it\n"
+"Language-Name: Italian\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: redturtle.drawio\n"
 
 #: ../profiles/default/types/DrawioItem.xml
 msgid "Draw.io Item"
-msgstr ""
+msgstr "Diagramma draw.io"
 
 #: ../profiles/default/types/DrawioItem.xml
 msgid "Draw.io diagram"
-msgstr ""
+msgstr "Diagramma draw.io"
 
 #: ../profiles/default/types/DrawioItem.xml
 msgid "Edit"
-msgstr ""
+msgstr "Modifica"
 
 #: ../content/drawio_item.py:22
 msgid "Iframe embed code"
-msgstr ""
+msgstr "Codice per embed iframe"
 
 #: ../content/drawio_item.py:23
 msgid "Insert the code generated from draw.io's export embed feature."
-msgstr ""
+msgstr "Inserisci il codice generato dalla funzionalità di export iframe di draw.io."
 
 #: ../configure.zcml:29
 msgid "Installs the redturtle.drawio add-on."
-msgstr ""
+msgstr "Installa redturtle.drawio"
 
 #: ../configure.zcml:29
 msgid "RedTurtle draw.io"
@@ -47,20 +47,20 @@ msgstr ""
 
 #: ../configure.zcml:38
 msgid "RedTurtle draw.io (uninstall)"
-msgstr ""
+msgstr "RedTurtle draw.io (uninstall)"
 
 #: ../content/drawio_item.py:13
 msgid "The iframe is invalid"
-msgstr ""
+msgstr "L'iframe inserito non è valido"
 
 #: ../configure.zcml:38
 msgid "Uninstalls the redturtle.drawio add-on."
-msgstr ""
+msgstr "Disinstalla redturtle.drawio"
 
 #: ../profiles/default/types/DrawioItem.xml
 msgid "View"
-msgstr ""
+msgstr "Vista"
 
 #: ../content/drawio_item.py:35
 msgid "You inserted a wrong embed code."
-msgstr ""
+msgstr "Hai inserito un codice di embed sbagliato."
