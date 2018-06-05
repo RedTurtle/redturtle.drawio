@@ -4,9 +4,6 @@
 
 =================
 Redturtle draw.io
-.. image:: http://www.redturtle.it/redturtle_banner.png
-   :alt: RedTurtle Technology Site
-   :target: http://www.redturtle.it/
 =================
 
 .. image:: https://travis-ci.org/RedTurtle/redturtle.drawio.svg?branch=master
