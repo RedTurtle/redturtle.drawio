@@ -11,13 +11,6 @@ from zope.component import queryUtility
 import unittest
 
 
-try:
-    from plone.dexterity.schema import portalTypeToSchemaName
-except ImportError:
-    # Plone < 5
-    from plone.dexterity.utils import portalTypeToSchemaName
-
-
 class DrawioItemIntegrationTest(unittest.TestCase):
 
     layer = REDTURTLE_DRAWIO_INTEGRATION_TESTING

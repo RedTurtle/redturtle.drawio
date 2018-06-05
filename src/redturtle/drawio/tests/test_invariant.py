@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 from redturtle.drawio.content.drawio_item import IDrawioItem
-from redturtle.drawio.content.drawio_item import IDrawioItem  # NOQA E501
-from redturtle.drawio.testing import REDTURTLE_DRAWIO_INTEGRATION_TESTING  # noqa
+from redturtle.drawio.testing import REDTURTLE_DRAWIO_INTEGRATION_TESTING
 from zope.interface.exceptions import Invalid
 
 import unittest
