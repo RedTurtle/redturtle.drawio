@@ -28,16 +28,16 @@ class DrawioItemIntegrationTest(unittest.TestCase):
         setRoles(self.portal, TEST_USER_ID, ['Manager'])
 
     def test_ct_drawio_item_schema(self):
-        fti = queryUtility(IDexterityFTI, name='Drawio Item')
+        fti = queryUtility(IDexterityFTI, name='DrawioItem')
         schema = fti.lookupSchema()
         self.assertEqual(IDrawioItem, schema)
 
     def test_ct_drawio_item_fti(self):
-        fti = queryUtility(IDexterityFTI, name='Drawio Item')
+        fti = queryUtility(IDexterityFTI, name='DrawioItem')
         self.assertTrue(fti)
 
     def test_ct_drawio_item_factory(self):
-        fti = queryUtility(IDexterityFTI, name='Drawio Item')
+        fti = queryUtility(IDexterityFTI, name='DrawioItem')
         factory = fti.factory
         obj = createObject(factory)
 
@@ -52,7 +52,7 @@ class DrawioItemIntegrationTest(unittest.TestCase):
         setRoles(self.portal, TEST_USER_ID, ['Contributor'])
         obj = api.content.create(
             container=self.portal,
-            type='Drawio Item',
+            type='DrawioItem',
             id='drawio_item',
         )
         self.assertTrue(

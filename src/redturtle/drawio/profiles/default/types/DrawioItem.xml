@@ -1,19 +1,19 @@
 <?xml version="1.0"?>
 <object xmlns:i18n="http://xml.zope.org/namespaces/i18n"
-    name="Drawio Item"
+    name="DrawioItem"
     meta_type="Dexterity FTI"
     i18n:domain="redturtle.drawio">
 
   <!-- Basic properties -->
   <property
       i18n:translate=""
-      name="title">Drawio Item</property>
+      name="title">Draw.io Item</property>
   <property
       i18n:translate=""
-      name="description">Drawio content</property>
+      name="description">Draw.io diagram</property>
 
   <property name="allow_discussion">False</property>
-  <property name="factory">Drawio Item</property>
+  <property name="factory">DrawioItem</property>
   <property name="icon_expr"></property>
   <property name="link_target"></property>
 
@@ -44,7 +44,7 @@
     <element value="plone.app.dexterity.behaviors.metadata.IPublication"/>
     <element value="plone.app.dexterity.behaviors.metadata.ICategorization"/>
     <element value="plone.app.dexterity.behaviors.metadata.IBasic"/>
-    <!--<element value="plone.app.referenceablebehavior.referenceable.IReferenceable" />-->
+    <element value="plone.app.referenceablebehavior.referenceable.IReferenceable" />
     <element value="plone.app.lockingbehavior.behaviors.ILocking" />
     <!--<element value="plone.app.contenttypes.behaviors.leadimage.ILeadImage"/>-->
     <!--<element value="plone.app.relationfield.behavior.IRelatedItems"/>-->
@@ -54,7 +54,7 @@
   </property>
 
   <!-- View information -->
-  <property name="add_view_expr">string:${folder_url}/++add++Drawio Item</property>
+  <property name="add_view_expr">string:${folder_url}/++add++DrawioItem</property>
   <property name="default_view">view</property>
   <property name="default_view_fallback">False</property>
   <property name="immediate_view">view</property>

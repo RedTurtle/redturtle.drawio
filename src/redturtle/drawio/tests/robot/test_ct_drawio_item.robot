@@ -34,18 +34,18 @@ Test Teardown  Close all browsers
 
 *** Test Cases ***************************************************************
 
-Scenario: As a site administrator I can add a Drawio Item
+Scenario: As a site administrator I can add a DrawioItem
   Given a logged-in site administrator
-    and an add Drawio Item form
-   When I type 'My Drawio Item' into the title field
+    and an add DrawioItem form
+   When I type 'My DrawioItem' into the title field
     and I submit the form
-   Then a Drawio Item with the title 'My Drawio Item' has been created
+   Then a DrawioItem with the title 'My DrawioItem' has been created
 
-Scenario: As a site administrator I can view a Drawio Item
+Scenario: As a site administrator I can view a DrawioItem
   Given a logged-in site administrator
-    and a Drawio Item 'My Drawio Item'
-   When I go to the Drawio Item view
-   Then I can see the Drawio Item title 'My Drawio Item'
+    and a DrawioItem 'My DrawioItem'
+   When I go to the DrawioItem view
+   Then I can see the DrawioItem title 'My DrawioItem'
 
 
 *** Keywords *****************************************************************
@@ -55,11 +55,11 @@ Scenario: As a site administrator I can view a Drawio Item
 a logged-in site administrator
   Enable autologin as  Site Administrator
 
-an add Drawio Item form
-  Go To  ${PLONE_URL}/++add++Drawio Item
+an add DrawioItem form
+  Go To  ${PLONE_URL}/++add++DrawioItem
 
-a Drawio Item 'My Drawio Item'
-  Create content  type=Drawio Item  id=my-drawio_item  title=My Drawio Item
+a DrawioItem 'My DrawioItem'
+  Create content  type=DrawioItem  id=my-drawio_item  title=My DrawioItem
 
 
 # --- WHEN -------------------------------------------------------------------
@@ -70,18 +70,18 @@ I type '${title}' into the title field
 I submit the form
   Click Button  Save
 
-I go to the Drawio Item view
+I go to the DrawioItem view
   Go To  ${PLONE_URL}/my-drawio_item
   Wait until page contains  Site Map
 
 
 # --- THEN -------------------------------------------------------------------
 
-a Drawio Item with the title '${title}' has been created
+a DrawioItem with the title '${title}' has been created
   Wait until page contains  Site Map
   Page should contain  ${title}
   Page should contain  Item created
 
-I can see the Drawio Item title '${title}'
+I can see the DrawioItem title '${title}'
   Wait until page contains  Site Map
   Page should contain  ${title}

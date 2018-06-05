@@ -6,25 +6,14 @@
 redturtle.drawio
 ================
 
-Tell me what your product does
+[![Build Status](https://travis-ci.org/RedTurtle/redturtle.drawio.svg?branch=master)](https://travis-ci.org/RedTurtle/redturtle.drawio)
+
+A simple integration with draw.io
 
 Features
 --------
 
-- Can be bullet points
-
-
-Examples
---------
-
-This add-on can be seen in action at the following sites:
-- Is there a page on the internet where everybody can see the features?
-
-
-Documentation
--------------
-
-Full documentation for end users can be found in the "docs" folder, and is also available online at http://docs.plone.org/foo/bar
+Allows to embed draw.io iframes in a special content-type
 
 
 Translations
@@ -32,7 +21,7 @@ Translations
 
 This product has been translated into
 
-- Klingon (thanks, K'Plai)
+- Italian
 
 
 Installation
